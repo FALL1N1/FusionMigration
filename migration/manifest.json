@@ -1,0 +1,26 @@
+{
+	"name":"Transfer Tool",
+	"description":"Migration character transfer tool",
+	"author":
+	{
+		"name":"Emiliyan_Kurtseliyanski",
+		"website":"http://wow.hysteria-gaming.org"
+	},
+
+	"permissions": {
+		"manage": { "default": false, "description": "Requiered toview manager" }
+	},
+
+	"roles": {
+		"manage": {
+			"description": "Manage migration transfers pendding.",
+			"dangerLevel": 3,
+
+			"permissions": {
+				"manage": true
+			}
+		}
+	},
+
+	"enabled":true
+}
